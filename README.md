@@ -1,5 +1,7 @@
 # Same Loss, Different State: Kovacs Memory in Neural-Network Training
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23666872.svg)](https://doi.org/10.5281/zenodo.23666872)
+
 Code and data for the manuscript *Same Loss, Different State: Kovacs Memory in Neural-Network Training* by Hao Liu,
 Xiaojie Zong, Jie Chen, Jianyu Xiong, Qiao Ke, Nan Li, Xiaofeng Luo and Yi-Cheng Zhang.
 
@@ -64,5 +66,5 @@ and `tables/` are released under the Creative Commons Attribution 4.0 Internatio
 
 ## Citation
 
-Please cite the article. Citation metadata for this repository are in `CITATION.cff`; the DOI of an archived release
-will be added here.
+Please cite the article and the archived release of this repository: release 1.0.0, Zenodo,
+https://doi.org/10.5281/zenodo.23666872 (all versions: https://doi.org/10.5281/zenodo.23666871). Citation metadata are in `CITATION.cff`.
