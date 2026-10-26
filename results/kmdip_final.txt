@@ -1,0 +1,9 @@
+km2 1-20: -0.0075 at 15; 1-50: -0.0075 at 15; 1-100: -0.0075 at 15 ; last negative step within 100: 45
+km_sd1 1-20: -0.0026 at 20; 1-50: -0.0026 at 20; 1-100: -0.0026 at 20 ; last negative step within 100: 20
+km_sd2 1-20: -0.0034 at 15; 1-50: -0.0034 at 15; 1-100: -0.0034 at 15 ; last negative step within 100: 40
+km_sd3 1-20: -0.0055 at 20; 1-50: -0.0055 at 20; 1-100: -0.0055 at 20 ; last negative step within 100: 55
+km_sd4 1-20: -0.0022 at 5; 1-50: -0.0022 at 5; 1-100: -0.0022 at 5 ; last negative step within 100: 35
+km_sd5 1-20: -0.0023 at 15; 1-50: -0.0023 at 15; 1-100: -0.0023 at 15 ; last negative step within 100: 15
+km_wd0 1-20: -0.0063 at 5; 1-50: -0.0063 at 5; 1-100: -0.0063 at 5 ; last negative step within 100: 30
+code_km 1-20: -0.0318 at 5; 1-50: -0.0318 at 5; 1-100: -0.0318 at 5 ; last negative step within 100: 100
+pubmed_km 1-20: -0.0045 at 5; 1-50: -0.0045 at 5; 1-100: -0.0045 at 5 ; last negative step within 100: 20

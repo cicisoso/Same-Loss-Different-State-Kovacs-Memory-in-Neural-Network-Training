@@ -1,0 +1,23 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+Network & Protocol & $t_c$ & $s_c$ & Law & Lag & Fraction & $t^*$ & $t_{\max}$\\
+\midrule
+web 30M & heat 100 steps & 460 & 57.5 & 32.7 & 41.3 & 27.0 & 33.7 & 35\\
+web 30M & heat 1000 steps & 404 & 50.5 & 22.6 & 41.3$^{\dagger}$ & 23.7 & 18.2 & 25\\
+web 30M & heat at $2\eref$ & 164 & 20.5 & 19.1$^{*}$ & 41.3$^{*}$ & 9.6$^{\dagger}$ & 25.0 & 30\\
+web 30M & cool at $\eref/4$ & 362 & 90.5 & 38.8 & 41.3 & 42.4 & 34.5 & 45\\
+web 30M, seed 1 & heat--cool & 708 & 88.5 & 44.4 & 41.3 & 41.5 & 40.3 & 55\\
+web 30M, seed 2 & heat--cool & 626 & 78.2 & 38.7 & 41.3 & 36.7 & 39.2 & 40\\
+web 30M, seed 3 & heat--cool & 624 & 78.0 & 38.5 & 41.3 & 36.6 & 37.6 & 40\\
+web 30M, seed 4 & heat--cool & 636 & 79.5 & 39.4 & 41.3 & 37.3 & 41.7 & 40\\
+web 30M, seed 5 & heat--cool & 706 & 88.2 & 44.3 & 41.3 & 41.4 & 41.2 & 40\\
+web 30M, unseen data 1 & heat--cool & 642 & 80.2 & 39.8 & 41.3 & 37.6 & 40.2 & 55\\
+web 30M, unseen data 2 & heat--cool & 660 & 82.5 & 41.0 & 41.3 & 38.7 & 32.4 & 45\\
+PubMed 30M & heat--cool & 546 & 68.2 & 33.2 & 41.3 & 32.0 & 38.2 & 45\\
+web 124M & heat--cool & 958 & 119.8 & 63.0 & 41.3 & 56.2 & 56.2 & 60\\
+\midrule
+\multicolumn{4}{l}{Law: within 1.5 of $t^*$ / $t_{\max}$} & \multicolumn{5}{l}{13 of 13 / 12 of 13; typical factor 1.11 / 1.16}\\
+\multicolumn{4}{l}{Constant lag: within 1.5 of $t^*$ / $t_{\max}$} & \multicolumn{5}{l}{11 of 13 / 12 of 13; typical factor 1.22 / 1.20}\\
+\multicolumn{4}{l}{Constant fraction: within 1.5 of $t^*$ / $t_{\max}$} & \multicolumn{5}{l}{12 of 13 / 12 of 13; typical factor 1.19 / 1.26}\\
+\bottomrule
+\end{tabular}

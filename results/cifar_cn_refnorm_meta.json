@@ -1,0 +1,41 @@
+{
+ "args": {
+  "task": "cifar",
+  "out": "cifar_cn_refnorm",
+  "sched": "[{\"lr\":0.04,\"steps\":2500,\"rescale_from\":\"/home/soso/advsci/ckpt/kov/cifar_kpS_end1.pt\"}]",
+  "init": "/home/soso/advsci/ckpt/kov/cifar_refS_s4322.pt",
+  "save_at": "",
+  "ref": "",
+  "data": "/home/soso/advsci/data/kov",
+  "res": "/home/soso/advsci/results/kov",
+  "ckdir": "/home/soso/advsci/ckpt/kov",
+  "opt": "sgd",
+  "bs": 256,
+  "wd": 0.0005,
+  "mom": 0.9,
+  "dim": 64,
+  "width": 64,
+  "data_seed": 0,
+  "dense": 10,
+  "sparse": 50,
+  "fine": 5,
+  "match_every": 2
+ },
+ "step0": 4322,
+ "phases": [
+  {
+   "phase": 0,
+   "start": 4322,
+   "lr": 0.04,
+   "match": false,
+   "rescale": {
+    "rescaled_filters": 2240,
+    "scale_mean": 1.148984432220459,
+    "scale_min": 0.9857490062713623,
+    "scale_max": 1.4637649059295654
+   },
+   "end": 6822
+  }
+ ],
+ "wall": 792.0317206382751
+}

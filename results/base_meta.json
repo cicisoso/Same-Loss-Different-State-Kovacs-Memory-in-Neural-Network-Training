@@ -1,0 +1,50 @@
+{
+ "args": {
+  "out": "base",
+  "sched": "[{\"lr\":1e-3,\"steps\":500,\"warmup\":1},{\"lr\":1e-3,\"steps\":3500}]",
+  "init": "",
+  "save_at": "4000",
+  "ref": "",
+  "data": "/home/soso/advsci/data/kov/fineweb",
+  "train_glob": "fineweb_train_",
+  "val_file": "fineweb_val_000000.bin",
+  "res": "/home/soso/advsci/results/kov",
+  "ckdir": "/home/soso/advsci/ckpt/kov",
+  "layers": 6,
+  "dim": 384,
+  "heads": 6,
+  "ctx": 512,
+  "bs": 64,
+  "opt": "adamw",
+  "wd": 0.1,
+  "beta1": 0.9,
+  "beta2": 0.95,
+  "clip": 1.0,
+  "data_seed": 0,
+  "seed": 0,
+  "eval_seqs": 512,
+  "dense": 10,
+  "sparse": 50,
+  "reset_opt": 0,
+  "compile": 1
+ },
+ "nparam": 30135168,
+ "step0": 0,
+ "phases": [
+  {
+   "phase": 0,
+   "start": 0,
+   "lr": 0.001,
+   "match": false,
+   "end": 500
+  },
+  {
+   "phase": 1,
+   "start": 500,
+   "lr": 0.001,
+   "match": false,
+   "end": 4000
+  }
+ ],
+ "wall": 521.5594742298126
+}

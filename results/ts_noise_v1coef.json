@@ -1,0 +1,69 @@
+{
+ "B_4": {
+  "cool_steps": 171,
+  "matched": true,
+  "heat_excess": 0.032646751823989455,
+  "hump": 0.003973697262914192,
+  "hump_rel": 0.12171799768435902,
+  "t_peak": 12,
+  "ref_loss": 0.020905856348863813
+ },
+ "B_16": {
+  "cool_steps": 110,
+  "matched": true,
+  "heat_excess": 0.005358207552751001,
+  "hump": 0.0007514013144652703,
+  "hump_rel": 0.14023370820704534,
+  "t_peak": 9,
+  "ref_loss": 0.013528513092069896
+ },
+ "B_64": {
+  "cool_steps": 66,
+  "matched": true,
+  "heat_excess": 0.001114898433469059,
+  "hump": 0.00011485299599419546,
+  "hump_rel": 0.10301655518236306,
+  "t_peak": 6,
+  "ref_loss": 0.011851182182973525
+ },
+ "B_256": {
+  "cool_steps": 18,
+  "matched": true,
+  "heat_excess": 0.0001572823681829144,
+  "hump": -8.730756049374344e-07,
+  "hump_rel": -0.0055510074970518955,
+  "t_peak": 0,
+  "ref_loss": 0.011451279540739382
+ },
+ "B_inf": {
+  "heat_excess": -0.0001535911818491916,
+  "note": "heating lowers the loss: no Kovacs protocol"
+ },
+ "sig_0.0": {
+  "cool_steps": 30,
+  "matched": true,
+  "heat_excess": 0.0002967833442333171,
+  "hump": -1.8680794907979803e-06,
+  "hump_rel": -0.006294421594391713,
+  "t_peak": 0,
+  "ref_loss": 0.011499554665708518
+ },
+ "sig_0.25": {
+  "cool_steps": 79,
+  "matched": true,
+  "heat_excess": 0.0015621393963627384,
+  "hump": 0.0001782752431001601,
+  "hump_rel": 0.11412249349530104,
+  "t_peak": 7,
+  "ref_loss": 0.011998456770549688
+ },
+ "sig_1.0": {
+  "cool_steps": 123,
+  "matched": true,
+  "heat_excess": 0.020542480178304057,
+  "hump": 0.0030237407130526764,
+  "hump_rel": 0.14719452991105722,
+  "t_peak": 10,
+  "ref_loss": 0.01968053995571761
+ }
+}

@@ -1,0 +1,10 @@
+Copyright (c) 2026 Hao Liu, Xiaojie Zong, Jie Chen, Jianyu Xiong, Qiao Ke, Nan Li, Xiaofeng Luo and Yi-Cheng Zhang
+
+The analysis plan (PREREG.md) and the data files in results/, figure_data/ and tables/ are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0). To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/
+
+These files are evaluation logs and analysis outputs of training runs on public data sets (FineWeb, codeparrot-clean,
+MedRAG PubMed, MovieLens-1M and CIFAR-10). The data sets themselves are not included and remain under their own terms.
+
+The source code in code/ is licensed under the MIT License (see LICENSE).

@@ -1,0 +1,28 @@
+== steps: per-unit response at intrinsic time s (nats per unit level)
+step_8e-4 (g=0.8): intrinsic {10: 0.08073, 30: 0.13248, 100: 0.17393, 300: 0.20016, 1000: 0.17159} nominal {10: 0.0722, 30: 0.13856, 100: 0.16232, 300: 0.20143, 1000: 0.18846}
+step_1.2e-3 (g=1.2): intrinsic {10: 0.07911, 30: 0.12107, 100: 0.19721, 300: 0.20475, 1000: 0.17779} nominal {10: 0.08502, 30: 0.13779, 100: 0.18552, 300: 0.19118, 1000: 0.156}
+step_5e-4 (g=0.5): intrinsic {10: 0.09827, 30: 0.1302, 100: 0.17897, 300: 0.20094, 1000: 0.16851} nominal {10: 0.05992, 30: 0.11419, 100: 0.1482, 300: 0.19033, 1000: 0.19237}
+step_2e-3 (g=2): intrinsic {10: 0.07491, 30: 0.12829, 100: 0.17038, 300: 0.18568, 1000: 0.1637} nominal {10: 0.09463, 30: 0.14748, 100: 0.18644, 300: 0.18189, 1000: 0.13106}
++-20% steps, intrinsic s = 10-1000: relative difference median 0.0491, largest 0.2489 (at 25)
++-20% steps, nominal t = 10-1000: relative difference median 0.0767, largest 0.1885 (at 1000)
+x0.5 / x2 steps, intrinsic s = 10-1000: relative difference median 0.0656, largest 0.2846 (at 16)
+x0.5 / x2 steps, nominal t = 10-1000: relative difference median 0.2357, largest 0.4492 (at 10)
+== pulses (300 steps): per-unit response u steps after the end of the pulse
+pulse_8e-4 (g=0.8): evaluated at u = [0, 5, 10, 15, 20, 25, 30] after the pulse; per unit at u = {0: 0.201, 5: 0.1876, 10: 0.1295, 20: 0.0912, 30: 0.0706, 100: 0.0134, 300: 0.0062, 1000: -0.0155, 2000: -0.0062}
+pulse_1.2e-3 (g=1.2): evaluated at u = [0, 5, 10, 15, 20, 25, 30] after the pulse; per unit at u = {0: 0.1897, 5: 0.1278, 10: 0.1368, 20: 0.0939, 30: 0.0782, 100: 0.0316, 300: -0.0136, 1000: -0.0182, 2000: -0.0113}
++-20% pulses: largest absolute per-unit difference over u = 5-2000: 0.0598 (at u = 5); over u = 10-2000: 0.0290
+== superposition: pulse_two against pulse_hot + pulse_cold_late
+t = 600-3000: rms deviation 0.0270 nats; observed range 0.0910; largest |observed| -0.0740 at t = 890 (sum -0.1334); mean deviation +0.0192
+  600-900: rms 0.04078, mean obs -0.0442, mean sum -0.0820, share of the squared deviation 0.779 (40 evaluations)
+  900-1200: rms 0.02151, mean obs -0.0001, mean sum -0.0188, share of the squared deviation 0.217 (40 evaluations)
+  1200-2000: rms 0.00363, mean obs -0.0096, mean sum -0.0112, share of the squared deviation 0.002 (16 evaluations)
+  2000-3000: rms 0.00280, mean obs -0.0151, mean sum -0.0132, share of the squared deviation 0.002 (20 evaluations)
+== frozen schedule-to-loss models on the withheld linear-regime runs (whole-run absolute-loss RMSE, nats)
+parameters identical to the registered fits: True
+fit-set rmse: {'tissue': 0.0398, 'mpl': 0.0375, 'nqm2': 0.0379, 'fsl': 0.0415, 'nqm2pq': 0.0264, 'nqmS': 0.0282} pulse_hot fit rmse: {'tissue': 0.0633, 'mpl': 0.0523, 'nqm2': 0.0548, 'fsl': 0.0574, 'nqm2pq': 0.0382, 'nqmS': 0.0458} reference-continuation fit rmse: {'tissue': 0.0079, 'mpl': 0.0073, 'nqm2': 0.008, 'fsl': 0.0097, 'nqm2pq': 0.0067, 'nqmS': 0.0033}
+step_1.2e-3: 0.0047-0.0134 (nqmS-fsl) {'tissue': 0.0107, 'mpl': 0.0091, 'nqm2': 0.01, 'fsl': 0.0134, 'nqm2pq': 0.0074, 'nqmS': 0.0047}
+step_8e-4: 0.0031-0.0102 (nqm2-tissue) {'tissue': 0.0102, 'mpl': 0.0033, 'nqm2': 0.0031, 'fsl': 0.004, 'nqm2pq': 0.0075, 'nqmS': 0.0049}
+pulse_1.2e-3: 0.0040-0.0142 (nqmS-fsl) {'tissue': 0.0076, 'mpl': 0.0093, 'nqm2': 0.0109, 'fsl': 0.0142, 'nqm2pq': 0.0069, 'nqmS': 0.004}
+pulse_8e-4: 0.0049-0.0095 (nqmS-tissue) {'tissue': 0.0095, 'mpl': 0.0054, 'nqm2': 0.0062, 'fsl': 0.0079, 'nqm2pq': 0.0075, 'nqmS': 0.0049}
+pulse_two: 0.0474-0.0774 (nqmS-tissue) {'tissue': 0.0774, 'mpl': 0.0569, 'nqm2': 0.0576, 'fsl': 0.0557, 'nqm2pq': 0.0477, 'nqmS': 0.0474}
+pulse_cold_late: 0.0064-0.0243 (nqm2-tissue) {'tissue': 0.0243, 'mpl': 0.0067, 'nqm2': 0.0064, 'fsl': 0.0087, 'nqm2pq': 0.0114, 'nqmS': 0.0086}

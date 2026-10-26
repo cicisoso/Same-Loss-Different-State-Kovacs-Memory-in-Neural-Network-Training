@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code or these data, please cite the article and this repository."
+title: "Code and data for: Same Loss, Different State: Kovacs Memory in Neural-Network Training"
+type: software
+authors:
+  - given-names: Hao
+    family-names: Liu
+    affiliation: "School of Information Technology, Zhejiang Financial College, Hangzhou, China"
+  - given-names: Xiaojie
+    family-names: Zong
+    affiliation: "School of Information Technology, Zhejiang Financial College, Hangzhou, China"
+  - given-names: Jie
+    family-names: Chen
+    affiliation: "School of Information Technology, Zhejiang Financial College, Hangzhou, China"
+  - given-names: Jianyu
+    family-names: Xiong
+    affiliation: "School of Information Technology, Zhejiang Financial College, Hangzhou, China"
+  - given-names: Qiao
+    family-names: Ke
+    affiliation: "International Research Center for Complexity Sciences, Hangzhou International Innovation Institute, Beihang University, Hangzhou, China"
+    orcid: "https://orcid.org/0000-0001-5633-4761"
+  - given-names: Nan
+    family-names: Li
+    affiliation: "School of Mathematics, North University of China, Taiyuan, China"
+  - given-names: Xiaofeng
+    family-names: Luo
+    affiliation: "School of Mathematics, North University of China, Taiyuan, China"
+  - given-names: Yi-Cheng
+    family-names: Zhang
+    affiliation: "International Research Center for Complexity Sciences, Hangzhou International Innovation Institute, Beihang University, Hangzhou, China"
+repository-code: "https://github.com/cicisoso/Same-Loss-Different-State-Kovacs-Memory-in-Neural-Network-Training"
+license: MIT
+abstract: >-
+  Training, analysis and figure code, the dated analysis plan and the evaluation data for a study of Kovacs memory in
+  neural-network training. A network is trained at a high learning rate, then at a low one until its held-out loss
+  equals that of an untouched reference, and is then trained exactly like the reference; the two losses separate again
+  and nearly reconverge over hundreds of steps.
+keywords:
+  - Kovacs effect
+  - memory effects
+  - learning-rate schedules
+  - training dynamics
+  - relaxation spectra
+  - glassy dynamics
+  - scaling laws

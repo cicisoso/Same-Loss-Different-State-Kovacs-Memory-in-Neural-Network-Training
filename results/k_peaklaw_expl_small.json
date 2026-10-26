@@ -1,0 +1,24 @@
+{
+ "mfn_kp": {
+  "ref": "mfn_refL",
+  "eta_h": 1.5,
+  "t_a": 300,
+  "eta_l": 0.0625,
+  "t_c": 1444,
+  "s_a": 900.0,
+  "s_c": 180.5,
+  "pred": 103.92507517223002,
+  "t_star": 157.03953258999957,
+  "t_max": 140.0,
+  "t_max_wide": 140.0,
+  "peak": 0.007388399999999999,
+  "ok_t_star": false,
+  "ok_t_max": true,
+  "base_const": 41.3,
+  "base_frac": 84.6545,
+  "base_const_ok_t_star": false,
+  "base_frac_ok_t_star": false,
+  "base_const_ok_t_max": false,
+  "base_frac_ok_t_max": false
+ }
+}

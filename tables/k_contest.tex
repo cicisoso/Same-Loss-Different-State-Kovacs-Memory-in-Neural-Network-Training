@@ -1,0 +1,146 @@
+\begin{longtable}{llcrrrrc}
+\caption{\contestcaption}\label{tab:contest}\\
+\toprule
+Run & Implementation & Sign obs./pred. & Height & Lag & NRMSE & RMSE$_{\mathrm{abs}}$ & Pass\\
+\midrule
+\endfirsthead
+\multicolumn{8}{l}{Table~\thetable{} (continued)}\\
+\toprule
+Run & Implementation & Sign obs./pred. & Height & Lag & NRMSE & RMSE$_{\mathrm{abs}}$ & Pass\\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+pilot (exploratory) & single-timescale & +/$-$ & $-$1.56 & 0.29 & 0.82 & -- & no\\
+ & multi-power & +/$-$ & $-$1.11 & 0.29 & 0.74 & -- & no\\
+ & functional scaling & +/$-$ & $-$0.87 & 0.29 & 0.66 & -- & no\\
+ & two modes & +/$-$ & $-$0.58 & 0.29 & 0.66 & -- & no\\
+ & two modes, free $p,q$ & +/+ & 0.92 & 0.43 & 0.32 & -- & no\\
+ & 26 modes & +/+ & 1.07 & 0.57 & 0.26 & -- & no\\
+\addlinespace
+heat 100 steps & single-timescale & +/+ & 0.19 & 4.29 & 0.70 & 0.181 & no\\
+ & multi-power & +/+ & 0.13 & 4.29 & 0.60 & 0.098 & no\\
+ & functional scaling & +/+ & 0.23 & 2.43 & 0.47 & 0.066 & no\\
+ & two modes & +/+ & 0.28 & 0.86 & 0.41 & 0.069 & no\\
+ & two modes, free $p,q$ & +/+ & 1.47 & 0.43 & 0.20 & 0.030 & no\\
+ & 26 modes & +/+ & 1.51 & 0.43 & 0.21 & 0.028 & no\\
+\addlinespace
+heat 1000 steps & single-timescale & +/$-$ & $-$2.78 & 6.00 & 0.92 & 0.206 & no\\
+ & multi-power & +/$-$ & $-$2.35 & 6.00 & 0.70 & 0.115 & no\\
+ & functional scaling & +/$-$ & $-$1.94 & 3.00 & 0.57 & 0.085 & no\\
+ & two modes & +/$-$ & $-$1.82 & 1.00 & 0.56 & 0.091 & no\\
+ & two modes, free $p,q$ & +/+ & 1.14 & 0.60 & 0.32 & 0.061 & no\\
+ & 26 modes & +/+ & 1.65 & 0.60 & 0.22 & 0.038 & no\\
+\addlinespace
+heat at $2\eta_{\mathrm{ref}}$ & single-timescale & +/$-$ & $-$0.24 & 5.00 & 0.87 & 0.116 & no\\
+ & multi-power & +/$-$ & $-$0.24 & 5.00 & 0.57 & 0.048 & no\\
+ & functional scaling & +/$-$ & $-$0.01 & 1.33 & 0.41 & 0.031 & no\\
+ & two modes & +/+ & 0.26 & 0.83 & 0.38 & 0.043 & no\\
+ & two modes, free $p,q$ & +/+ & 1.31 & 0.50 & 0.18 & 0.026 & no\\
+ & 26 modes & +/+ & 1.36 & 0.50 & 0.15 & 0.020 & no\\
+\addlinespace
+cool at $\eta_{\mathrm{ref}}/4$ & single-timescale & +/$-$ & $-$0.36 & 3.33 & 0.80 & 0.167 & no\\
+ & multi-power & +/$-$ & $-$0.31 & 3.33 & 0.69 & 0.114 & no\\
+ & functional scaling & +/$-$ & $-$0.26 & 3.33 & 0.64 & 0.101 & no\\
+ & two modes & +/$-$ & $-$0.34 & 3.33 & 0.64 & 0.101 & no\\
+ & two modes, free $p,q$ & +/+ & 0.55 & 0.33 & 0.38 & 0.060 & no\\
+ & 26 modes & +/+ & 0.72 & 0.44 & 0.30 & 0.054 & no\\
+\addlinespace
+cool-heat & single-timescale & +/+ & 1.86 & 1.00 & 0.38 & 0.025 & no\\
+ & multi-power & +/+ & 1.30 & 1.07 & 0.14 & 0.008 & yes\\
+ & functional scaling & +/+ & 1.66 & 0.07 & 0.34 & 0.011 & no\\
+ & two modes & +/+ & 1.59 & 1.07 & 0.36 & 0.011 & no\\
+ & two modes, free $p,q$ & +/+ & 1.63 & 1.07 & 0.41 & 0.021 & no\\
+ & 26 modes & +/+ & 1.82 & 0.07 & 0.41 & 0.018 & no\\
+\addlinespace
+unseen data 1 & single-timescale & +/$-$ & $-$0.04 & 2.73 & 0.76 & 0.198 & no\\
+ & multi-power & +/$-$ & $-$0.05 & 2.73 & 0.67 & 0.126 & no\\
+ & functional scaling & +/+ & 0.01 & 2.36 & 0.59 & 0.099 & no\\
+ & two modes & +/$-$ & $-$0.05 & 2.73 & 0.58 & 0.100 & no\\
+ & two modes, free $p,q$ & +/+ & 1.02 & 0.27 & 0.27 & 0.053 & no\\
+ & 26 modes & +/+ & 1.15 & 0.36 & 0.23 & 0.041 & no\\
+\addlinespace
+unseen data 2 & single-timescale & +/$-$ & $-$0.02 & 3.33 & 0.71 & 0.196 & no\\
+ & multi-power & +/$-$ & $-$0.04 & 3.33 & 0.64 & 0.126 & no\\
+ & functional scaling & +/+ & 0.02 & 2.89 & 0.56 & 0.099 & no\\
+ & two modes & +/$-$ & $-$0.03 & 3.33 & 0.55 & 0.100 & no\\
+ & two modes, free $p,q$ & +/+ & 0.95 & 0.33 & 0.25 & 0.052 & no\\
+ & 26 modes & +/+ & 1.08 & 0.44 & 0.21 & 0.041 & no\\
+\addlinespace
+seed 1 & single-timescale & +/+ & 0.01 & 2.73 & 0.76 & 0.173 & no\\
+ & multi-power & +/$-$ & $-$0.01 & 2.73 & 0.69 & 0.106 & no\\
+ & functional scaling & +/+ & 0.05 & 2.55 & 0.61 & 0.081 & no\\
+ & two modes & +/$-$ & $-$0.01 & 2.73 & 0.61 & 0.081 & no\\
+ & two modes, free $p,q$ & +/+ & 0.96 & 0.27 & 0.29 & 0.032 & no\\
+ & 26 modes & +/+ & 1.12 & 0.36 & 0.24 & 0.022 & no\\
+\addlinespace
+seed 2 & single-timescale & +/$-$ & $-$0.05 & 3.75 & 0.76 & 0.183 & no\\
+ & multi-power & +/$-$ & $-$0.06 & 3.75 & 0.67 & 0.112 & no\\
+ & functional scaling & +/+ & 0.01 & 3.25 & 0.59 & 0.085 & no\\
+ & two modes & +/$-$ & $-$0.05 & 3.75 & 0.58 & 0.085 & no\\
+ & two modes, free $p,q$ & +/+ & 1.01 & 0.38 & 0.27 & 0.039 & no\\
+ & 26 modes & +/+ & 1.14 & 0.50 & 0.22 & 0.028 & no\\
+\addlinespace
+seed 3 & single-timescale & +/$-$ & $-$0.05 & 3.75 & 0.76 & 0.183 & no\\
+ & multi-power & +/$-$ & $-$0.06 & 3.75 & 0.67 & 0.111 & no\\
+ & functional scaling & +/+ & 0.01 & 3.25 & 0.59 & 0.085 & no\\
+ & two modes & +/$-$ & $-$0.05 & 3.75 & 0.57 & 0.085 & no\\
+ & two modes, free $p,q$ & +/+ & 1.04 & 0.38 & 0.27 & 0.038 & no\\
+ & 26 modes & +/+ & 1.17 & 0.50 & 0.22 & 0.027 & no\\
+\addlinespace
+seed 4 & single-timescale & +/$-$ & $-$0.04 & 3.75 & 0.73 & 0.184 & no\\
+ & multi-power & +/$-$ & $-$0.05 & 3.75 & 0.65 & 0.113 & no\\
+ & functional scaling & +/+ & 0.01 & 3.25 & 0.57 & 0.087 & no\\
+ & two modes & +/$-$ & $-$0.05 & 3.75 & 0.57 & 0.087 & no\\
+ & two modes, free $p,q$ & +/+ & 0.98 & 0.38 & 0.27 & 0.042 & no\\
+ & 26 modes & +/+ & 1.11 & 0.50 & 0.22 & 0.032 & no\\
+\addlinespace
+seed 5 & single-timescale & +/+ & 0.01 & 3.75 & 0.76 & 0.184 & no\\
+ & multi-power & +/$-$ & $-$0.01 & 3.75 & 0.69 & 0.116 & no\\
+ & functional scaling & +/+ & 0.05 & 3.50 & 0.61 & 0.090 & no\\
+ & two modes & +/$-$ & $-$0.01 & 3.75 & 0.61 & 0.090 & no\\
+ & two modes, free $p,q$ & +/+ & 0.95 & 0.38 & 0.30 & 0.044 & no\\
+ & 26 modes & +/+ & 1.10 & 0.50 & 0.25 & 0.034 & no\\
+\addlinespace
+seed 1, cool-heat & single-timescale & +/+ & 1.40 & 0.93 & 0.54 & 0.029 & no\\
+ & multi-power & +/+ & 0.97 & 1.00 & 0.10 & 0.028 & yes\\
+ & functional scaling & +/+ & 1.19 & 1.00 & 0.31 & 0.033 & no\\
+ & two modes & +/+ & 1.19 & 1.00 & 0.38 & 0.034 & no\\
+ & two modes, free $p,q$ & +/+ & 1.20 & 1.00 & 0.46 & 0.044 & no\\
+ & 26 modes & +/+ & 1.27 & 0.07 & 0.44 & 0.043 & no\\
+\addlinespace
+seed 2, cool-heat & single-timescale & +/+ & 1.55 & 1.00 & 0.60 & 0.025 & no\\
+ & multi-power & +/+ & 1.06 & 1.00 & 0.14 & 0.016 & yes\\
+ & functional scaling & +/+ & 1.31 & 1.00 & 0.32 & 0.021 & no\\
+ & two modes & +/+ & 1.31 & 1.00 & 0.35 & 0.021 & no\\
+ & two modes, free $p,q$ & +/+ & 1.31 & 1.00 & 0.44 & 0.033 & no\\
+ & 26 modes & +/+ & 1.28 & 0.07 & 0.42 & 0.031 & no\\
+\addlinespace
+seed 3, cool-heat & single-timescale & +/+ & 1.74 & 0.93 & 0.51 & 0.025 & no\\
+ & multi-power & +/+ & 1.20 & 1.00 & 0.12 & 0.018 & yes\\
+ & functional scaling & +/+ & 1.47 & 1.00 & 0.36 & 0.023 & no\\
+ & two modes & +/+ & 1.48 & 1.00 & 0.41 & 0.024 & no\\
+ & two modes, free $p,q$ & +/+ & 1.50 & 1.00 & 0.48 & 0.036 & no\\
+ & 26 modes & +/+ & 1.57 & 0.07 & 0.47 & 0.035 & no\\
+\addlinespace
+seed 4, cool-heat & single-timescale & +/+ & 1.54 & 2.00 & 0.66 & 0.025 & no\\
+ & multi-power & +/+ & 1.06 & 2.00 & 0.16 & 0.017 & no\\
+ & functional scaling & +/+ & 1.30 & 2.00 & 0.31 & 0.022 & no\\
+ & two modes & +/+ & 1.30 & 2.00 & 0.38 & 0.023 & no\\
+ & two modes, free $p,q$ & +/+ & 1.31 & 2.00 & 0.48 & 0.034 & no\\
+ & 26 modes & +/+ & 1.27 & 0.13 & 0.46 & 0.033 & no\\
+\addlinespace
+seed 5, cool-heat & single-timescale & +/+ & 1.42 & 0.93 & 0.56 & 0.025 & no\\
+ & multi-power & +/+ & 0.98 & 1.00 & 0.12 & 0.018 & yes\\
+ & functional scaling & +/+ & 1.20 & 1.00 & 0.28 & 0.023 & yes\\
+ & two modes & +/+ & 1.21 & 1.00 & 0.36 & 0.024 & no\\
+ & two modes, free $p,q$ & +/+ & 1.22 & 1.00 & 0.45 & 0.036 & no\\
+ & 26 modes & +/+ & 1.28 & 0.07 & 0.42 & 0.034 & no\\
+\addlinespace
+from step 8000 & single-timescale & +/$-$ & $-$0.01 & 4.29 & 0.72 & 0.242 & no\\
+ & multi-power & +/$-$ & $-$0.03 & 4.29 & 0.63 & 0.148 & no\\
+ & functional scaling & +/+ & 0.04 & 4.00 & 0.55 & 0.109 & no\\
+ & two modes & +/$-$ & $-$0.03 & 4.29 & 0.54 & 0.116 & no\\
+ & two modes, free $p,q$ & +/+ & 1.19 & 0.43 & 0.23 & 0.085 & no\\
+ & 26 modes & +/+ & 1.35 & 0.57 & 0.21 & 0.049 & no\\
+\end{longtable}

@@ -1,0 +1,66 @@
+== independent networks (registered maximum, nats)
+seed 1: match 5008; A +0.0632 at 55; B +0.0622 at 50
+seed 2: match 4926; A +0.0650 at 40; B +0.0633 at 35
+seed 3: match 4924; A +0.0635 at 40; B +0.0615 at 40
+seed 4: match 4936; A +0.0665 at 40; B +0.0674 at 40
+seed 5: match 5006; A +0.0645 at 40; B +0.0616 at 60
+set A: n=5 mean 0.0646 s.e.m. 0.0006 range 0.0632-0.0665
+set B: n=5 mean 0.0632 s.e.m. 0.0011 range 0.0615-0.0674
+seed 1 training loss (9-step mean): maximum +0.0614 at 53 steps
+== token bins: per-token maximum of the rarest bin (rank > 10 000) over that of the ten most frequent targets
+kp_ta100: A 3.10 (at match: max |dL| 0.060, signs ---++; lags [30, 40, 45, 45, 80]); B 3.31 (at match: max |dL| 0.055, signs ---++; lags [30, 40, 45, 45, 80])
+kp_ta1000: A 2.11 (at match: max |dL| 0.019, signs +--++; lags [40, 110, 60, 30, 30]); B 1.30 (at match: max |dL| 0.023, signs +----; lags [40, 110, 60, 30, 30])
+kp_h2: A 3.74 (at match: max |dL| 0.053, signs ---++; lags [15, 75, 25, 30, 90]); B 3.54 (at match: max |dL| 0.044, signs ---++; lags [15, 75, 25, 30, 95])
+kp_l2: A 4.58 (at match: max |dL| 0.045, signs ---++; lags [35, 70, 45, 55, 85]); B 4.18 (at match: max |dL| 0.040, signs ---++; lags [35, 70, 75, 85, 90])
+kp_sd1: A 2.91 (at match: max |dL| 0.011, signs +-+-+; lags [150, 30, 45, 50, 50]); B 2.78 (at match: max |dL| 0.018, signs +--+-; lags [25, 10, 45, 50, 50])
+kp_sd2: A 2.32 (at match: max |dL| 0.011, signs --+++; lags [20, 35, 40, 45, 95]); B 2.73 (at match: max |dL| 0.022, signs --+++; lags [20, 55, 40, 45, 95])
+kp_sd3: A 2.84 (at match: max |dL| 0.014, signs +++--; lags [45, 100, 25, 80, 75]); B 2.87 (at match: max |dL| 0.009, signs -+++-; lags [90, 100, 25, 75, 75])
+kp_sd4: A 4.60 (at match: max |dL| 0.015, signs --+++; lags [150, 45, 55, 70, 75]); B 5.04 (at match: max |dL| 0.037, signs --+++; lags [150, 45, 65, 75, 75])
+kp_sd5: A 3.62 (at match: max |dL| 0.027, signs +++--; lags [25, 50, 110, 90, 90]); B 3.43 (at match: max |dL| 0.045, signs +-+--; lags [30, 50, 110, 90, 90])
+set A: 9 runs, factors 2.11-4.60, all above 1: True
+set B: 9 runs, factors 1.30-5.04, all above 1: True
+== breadth, replicates and reverse runs: set A from k_table.json; set B with the same statistics
+kp (web 30M (pilot), heat-cool): match after 704 steps, dA -16, L_ref 4.464, gap at match A -0.0002 B None; A: peak +0.0663 at 35.0 (1.5% of L_ref), extremum +0.0663 at 35.0, area 14.810492500000006, late -0.0021, w_rel 0.1128292845946004; B: not recorded
+kp_sd1 (web 30M, seed 1, heat-cool): match after 708 steps, dA -20, L_ref 4.431, gap at match A -0.0016 B -0.0035; A: peak +0.0632 at 55.0 (1.4% of L_ref), extremum +0.0632 at 55.0, area 14.294221500000006, late -0.0003, w_rel 0.11422738509102048; B: peak +0.0622 at 50, extremum +0.0622 at 50
+code_kp (code 30M, heat-cool): match after 794 steps, dA -95, L_ref 1.374, gap at match A -0.0001 B None; A: peak +0.0567 at 60.0 (4.1% of L_ref), extremum +0.0567 at 60.0, area 12.856139500000001, late +0.0085, w_rel 0.012784567399343638; B: not recorded
+pubmed_kp (PubMed 30M, heat-cool): match after 546 steps, dA 122, L_ref 2.949, gap at match A -0.0009 B -0.0029; A: peak +0.0585 at 45.0 (2.0% of L_ref), extremum +0.0585 at 45.0, area 11.589969999999997, late -0.0035, w_rel 0.022250818212652623; B: peak +0.0571 at 45, extremum +0.0571 at 45
+big_kp (web 124M, heat-cool): match after 958 steps, dA -238, L_ref 4.189, gap at match A -0.0001 B -0.0045; A: peak +0.0855 at 60.0 (2.0% of L_ref), extremum +0.0855 at 60.0, area 20.94980650000003, late +0.0147, w_rel 0.13923131992307614; B: peak +0.0812 at 70, extremum +0.0812 at 70
+kp_wd0 (web 30M, no decay, heat-cool): match after 786 steps, dA -88, L_ref 4.436, gap at match A -0.0000 B -0.0046; A: peak +0.0609 at 70.0 (1.4% of L_ref), extremum +0.0609 at 70.0, area 14.566375499999968, late +0.0074, w_rel 0.07437978204007623; B: peak +0.0579 at 65, extremum +0.0579 at 65
+km_wd0 (web 30M, no decay, cool-heat): match after 9 steps, dA -258, L_ref 4.486, gap at match A +0.0039 B +0.0047; A: peak +0.0124 at 100.0 (0.3% of L_ref), extremum +0.0124 at 100.0, area 2.987768500000023, late +0.0127, w_rel -0.021009622301370157; B: peak +0.0138 at 150, extremum +0.0138 at 150; A minimum over 1-20 steps -0.0063 at 5; B minimum over 1-20 steps -0.0031 at 5
+kpA8 (web 30M, from step 8000, heat-cool): match after 669 steps, dA 15, L_ref 4.344, gap at match A -0.0002 B -0.0069; A: peak +0.0537 at 35.0 (1.2% of L_ref), extremum +0.0537 at 35.0, area 11.566468749999988, late -0.0111, w_rel 0.14719130444278816; B: peak +0.0499 at 40, extremum +0.0499 at 40
+kp_r1 (web 30M, unseen data 1, heat-cool): match after 642 steps, dA 38, L_ref 4.465, gap at match A -0.0006 B +0.0030; A: peak +0.0637 at 55.0 (1.4% of L_ref), extremum +0.0637 at 55.0, area 13.681924499999958, late -0.0041, w_rel 0.1124911321485278; B: peak +0.0646 at 55, extremum +0.0646 at 55
+kp_r2 (web 30M, unseen data 2, heat-cool): match after 660 steps, dA 22, L_ref 4.461, gap at match A -0.0000 B +0.0014; A: peak +0.0675 at 45.0 (1.5% of L_ref), extremum +0.0675 at 45.0, area 13.99281749999999, late -0.0034, w_rel 0.11498453469497871; B: peak +0.0671 at 40, extremum +0.0671 at 40
+km2 (web 30M, cool-heat): match after 11 steps, dA -257, L_ref 4.505, gap at match A +0.0026 B +0.0087; A: peak +0.0098 at 140.0 (0.2% of L_ref), extremum +0.0098 at 140.0, area 2.371175250000024, late +0.0098, w_rel -0.01122452404106189; B: peak +0.0111 at 140, extremum +0.0111 at 140; A minimum over 1-20 steps -0.0075 at 15; B minimum over 1-20 steps -0.0026 at 15
+km_sd1 (web 30M, seed 1, cool-heat): match after 10 steps, dA -258, L_ref 4.472, gap at match A +0.0020 B -0.0003; A: peak +0.0130 at 150.0 (0.3% of L_ref), extremum +0.0130 at 150.0, area 3.147882500000012, late +0.0109, w_rel -0.012169484480281434; B: peak +0.0119 at 150, extremum +0.0119 at 150; A minimum over 1-20 steps -0.0026 at 20; B minimum over 1-20 steps +0.0004 at 5
+km_sd2 (web 30M, seed 2, cool-heat): match after 9 steps, dA -258, L_ref 4.484, gap at match A +0.0074 B +0.0055; A: peak +0.0118 at 150.0 (0.3% of L_ref), extremum +0.0118 at 150.0, area 2.624202250000014, late +0.0114, w_rel -0.01180643246563684; B: peak +0.0128 at 150, extremum +0.0128 at 150; A minimum over 1-20 steps -0.0034 at 15; B minimum over 1-20 steps -0.0051 at 15
+km_sd3 (web 30M, seed 3, cool-heat): match after 10 steps, dA -258, L_ref 4.480, gap at match A +0.0005 B +0.0015; A: peak +0.0105 at 150.0 (0.2% of L_ref), extremum +0.0105 at 150.0, area 2.3867925000000234, late +0.0101, w_rel -0.011372921483620013; B: peak +0.0117 at 150, extremum +0.0117 at 150; A minimum over 1-20 steps -0.0055 at 20; B minimum over 1-20 steps -0.0020 at 15
+km_sd4 (web 30M, seed 4, cool-heat): match after 9 steps, dA -258, L_ref 4.475, gap at match A +0.0028 B -0.0014; A: peak +0.0118 at 75.0 (0.3% of L_ref), extremum +0.0118 at 75.0, area 2.834920500000029, late +0.0099, w_rel -0.0097658314630229; B: peak +0.0107 at 150, extremum +0.0107 at 150; A minimum over 1-20 steps -0.0022 at 5; B minimum over 1-20 steps -0.0070 at 5
+km_sd5 (web 30M, seed 5, cool-heat): match after 10 steps, dA -258, L_ref 4.485, gap at match A +0.0018 B +0.0019; A: peak +0.0128 at 150.0 (0.3% of L_ref), extremum +0.0128 at 150.0, area 3.230559999999998, late +0.0106, w_rel -0.008393524854787171; B: peak +0.0119 at 150, extremum +0.0119 at 150; A minimum over 1-20 steps -0.0023 at 15; B minimum over 1-20 steps -0.0010 at 15
+code_km (code 30M, cool-heat): match after 2 steps, dA -262, L_ref 1.415, gap at match A +0.0329 B None; A: peak +0.0041 at 65.0 (0.3% of L_ref), extremum -0.0238 at 10.0, area 0.35882399999999814, late +0.0083, w_rel 0.0019438962504041424; B: not recorded; A minimum over 1-20 steps -0.0318 at 5
+pubmed_km (PubMed 30M, cool-heat): match after 9 steps, dA -258, L_ref 2.969, gap at match A +0.0052 B +0.0047; A: peak +0.0095 at 140.0 (0.3% of L_ref), extremum +0.0095 at 140.0, area 2.0069574999999853, late +0.0084, w_rel 0.0019358419129777982; B: peak +0.0103 at 150, extremum +0.0103 at 150; A minimum over 1-20 steps -0.0045 at 5; B minimum over 1-20 steps -0.0073 at 15
+km seeds (n=5) ext: mean +0.0120 s.e.m. 0.0005 range +0.0105 to +0.0130
+km seeds (n=5) t_ext: mean +135.0000 s.e.m. 15.0000 range +75.0000 to +150.0000
+km seeds (n=5) late: mean +0.0106 s.e.m. 0.0003 range +0.0099 to +0.0114
+km seeds (n=5) dA: mean -257.7000 s.e.m. 0.1225 range -258.0000 to -257.5000
+== peak-time law: 13 scored of 13 planned; status {'scored': 13}
+law: t* 13/13 (factor 1.114); t_max 12/13 (factor 1.160)
+constant_lag: t* 11/13 (factor 1.216); t_max 12/13 (factor 1.195)
+constant_fraction: t* 12/13 (factor 1.195); t_max 12/13 (factor 1.260)
+unscored: []
+== contest: 18 scored withheld Kovacs runs; passes {'tissue': '0/18', 'mpl': '5/18', 'fsl': '1/18', 'nqm2': '0/18', 'nqm2pq': '0/18', 'nqmS': '0/18'}
+nqm2pq: height 0.55-1.63 (within 1.5: 16), time 0.27-2.00 (within: 5), NRMSE<0.3: 10 of 18
+nqmS: height 0.72-1.82 (within 1.5: 14), time 0.07-0.60 (within: 0), NRMSE<0.3: 11 of 18
+== anneal replications: {'n_met': 3, 'n_scored': 3, 'n_opposite': 0, 'n_unresolved': 0, 'n_clock_above': 3, 'n_max_above': 3}
+seed 1: met  robust_agree=True
+  match registered 5008 replay 5007
+  A: start +0.0011; final 0.075 (0.073-0.078); last3 0.075 (0.073-0.078); over clock 0.033 (0.029-0.036); over free max 0.011 (0.008-0.014); outcome met/met clock met max met
+  B: start -0.0030; final 0.073 (0.070-0.076); last3 0.073 (0.069-0.076); over clock 0.034 (0.030-0.037); over free max 0.010 (0.006-0.013); outcome met/met clock met max met
+seed 2: met  robust_agree=True
+  match registered 4926 replay 4927
+  A: start +0.0036; final 0.073 (0.070-0.076); last3 0.072 (0.069-0.075); over clock 0.040 (0.037-0.044); over free max 0.007 (0.002-0.010); outcome met/met clock met max met
+  B: start +0.0075; final 0.074 (0.071-0.077); last3 0.074 (0.070-0.077); over clock 0.041 (0.038-0.044); over free max 0.009 (0.006-0.012); outcome met/met clock met max met
+seed 3: met  robust_agree=True
+  match registered 4924 replay 4975
+  A: start +0.0023; final 0.071 (0.068-0.074); last3 0.071 (0.067-0.074); over clock 0.036 (0.033-0.039); over free max 0.005 (0.001-0.009); outcome met/met clock met max met
+  B: start +0.0035; final 0.071 (0.067-0.074); last3 0.070 (0.067-0.074); over clock 0.037 (0.034-0.041); over free max 0.008 (0.004-0.011); outcome met/met clock met max met
+== resets: {'transplant': ('retained', 'ok'), 'transplant repeat': ('retained', 'ok'), 'base': ('reshaped', 'ok')}

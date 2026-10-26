@@ -1,0 +1,52 @@
+{
+ "args": {
+  "task": "mf",
+  "out": "mfn_km",
+  "sched": "[{\"lr\":0.0625,\"steps\":300},{\"lr\":0.75,\"until\":\"match\",\"max\":3000},{\"lr\":0.5,\"steps\":2500}]",
+  "init": "/home/soso/advsci/ckpt/kov/mfn_base_s20000.pt",
+  "save_at": "",
+  "ref": "/home/soso/advsci/results/kov/mfn_refL_eval.tsv",
+  "data": "/home/soso/advsci/data/kov",
+  "res": "/home/soso/advsci/results/kov",
+  "ckdir": "/home/soso/advsci/ckpt/kov",
+  "opt": "sgd",
+  "bs": 256,
+  "wd": 0.0001,
+  "mom": 0.9,
+  "dim": 64,
+  "width": 64,
+  "data_seed": 0,
+  "dense": 10,
+  "sparse": 50,
+  "fine": 5,
+  "match_every": 1
+ },
+ "step0": 20000,
+ "phases": [
+  {
+   "phase": 0,
+   "start": 20000,
+   "lr": 0.0625,
+   "match": false,
+   "end": 20300
+  },
+  {
+   "phase": 1,
+   "start": 20300,
+   "lr": 0.75,
+   "match": true,
+   "gap_start": -0.007954193153381306,
+   "matched_at": 20335,
+   "match_gap": 8.494781494139403e-05,
+   "end": 20335
+  },
+  {
+   "phase": 2,
+   "start": 20335,
+   "lr": 0.5,
+   "match": false,
+   "end": 22835
+  }
+ ],
+ "wall": 92.44481348991394
+}

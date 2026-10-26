@@ -1,0 +1,45 @@
+{
+ "args": {
+  "task": "cifar",
+  "out": "cifar_kpS",
+  "sched": "[{\"lr\":0.12,\"steps\":300},{\"lr\":0.005,\"until\":\"match\",\"max\":3000,\"save_end\":1}]",
+  "init": "/home/soso/advsci/ckpt/kov/cifar_base_s4000.pt",
+  "save_at": "",
+  "ref": "/home/soso/advsci/results/kov/cifar_refL_eval.tsv",
+  "data": "/home/soso/advsci/data/kov",
+  "res": "/home/soso/advsci/results/kov",
+  "ckdir": "/home/soso/advsci/ckpt/kov",
+  "opt": "sgd",
+  "bs": 256,
+  "wd": 0.0005,
+  "mom": 0.9,
+  "dim": 64,
+  "width": 64,
+  "data_seed": 0,
+  "dense": 10,
+  "sparse": 50,
+  "fine": 5,
+  "match_every": 1
+ },
+ "step0": 4000,
+ "phases": [
+  {
+   "phase": 0,
+   "start": 4000,
+   "lr": 0.12,
+   "match": false,
+   "end": 4300
+  },
+  {
+   "phase": 1,
+   "start": 4300,
+   "lr": 0.005,
+   "match": true,
+   "gap_start": 0.20825636277008053,
+   "matched_at": 4322,
+   "match_gap": -0.000962146989631707,
+   "end": 4322
+  }
+ ],
+ "wall": 137.54333066940308
+}

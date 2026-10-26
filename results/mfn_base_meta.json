@@ -1,0 +1,42 @@
+{
+ "args": {
+  "task": "mf",
+  "out": "mfn_base",
+  "sched": "[{\"lr\":0.5,\"steps\":200,\"warmup\":1},{\"lr\":0.5,\"steps\":19800}]",
+  "init": "",
+  "save_at": "20000",
+  "ref": "",
+  "data": "/home/soso/advsci/data/kov",
+  "res": "/home/soso/advsci/results/kov",
+  "ckdir": "/home/soso/advsci/ckpt/kov",
+  "opt": "sgd",
+  "bs": 256,
+  "wd": 0.0001,
+  "mom": 0.9,
+  "dim": 64,
+  "width": 64,
+  "data_seed": 0,
+  "dense": 10,
+  "sparse": 50,
+  "fine": 5,
+  "match_every": 2
+ },
+ "step0": 0,
+ "phases": [
+  {
+   "phase": 0,
+   "start": 0,
+   "lr": 0.5,
+   "match": false,
+   "end": 200
+  },
+  {
+   "phase": 1,
+   "start": 200,
+   "lr": 0.5,
+   "match": false,
+   "end": 20000
+  }
+ ],
+ "wall": 550.2249867916107
+}

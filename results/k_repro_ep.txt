@@ -1,0 +1,4 @@
+nm_kp_sham sw_kp_own eval_loss area -0.005 late -0.00045 maxabs_smooth_10_150 0.00065
+nm_kp_sham sw_kp_own eval_loss_b area -0.015 late -0.00002 maxabs_smooth_10_150 0.00038
+nm_ref_sham sw_ref_own eval_loss area 0.028 late -0.00029 maxabs_smooth_10_150 0.00040
+nm_ref_sham sw_ref_own eval_loss_b area -0.022 late -0.00032 maxabs_smooth_10_150 0.00024

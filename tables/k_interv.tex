@@ -1,0 +1,28 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+Network & Change at the match & $\delta_0$ & Peak & $t$ & Area & Late & $\Delta$Peak & $\Delta$Area\\
+\midrule
+Kovacs & unchanged & -- & +0.0649 & 70 & +14.44 & $-$0.0007 & -- & --\\
+Kovacs & attn./MLP inputs reduced & $-$2.2 & +0.0718 & 70 & +16.32 & +0.0054 & +0.0069 & +1.87\\
+Kovacs & residual stream reduced & +1.2 & +0.0730 & 70 & +16.80 & +0.0083 & +0.0081 & +2.36\\
+Kovacs & both reduced & $-$0.9 & +0.0796 & 55 & +18.72 & +0.0140 & +0.0146 & +4.28\\
+reference & attn./MLP inputs increased & +0.0 & -- & -- & $-$2.38 & $-$0.0067 & -- & --\\
+reference & residual stream increased & +0.9 & -- & -- & $-$3.29 & $-$0.0104 & -- & --\\
+\midrule
+\multicolumn{9}{l}{Optimizer-state transplant (set A)}\\
+Weights & Optimizer state & & Peak & $t$ & Area & Late & & \\
+\midrule
+Kovacs & Kovacs & & +0.0651 & 55 & +14.48 & $-$0.0005 & & \\
+Kovacs & reference & & +0.0636 & 70 & +14.45 & $-$0.0003 & & \\
+reference & Kovacs & & +0.0199 & 20 & +1.70 & 0.0000 & & \\
+interaction &  & & -- & -- & $-$1.67 & $-$0.0002 & & \\
+\midrule
+\multicolumn{9}{l}{Optimizer reset at the match (set A)}\\
+Pair & Optimizer states & & Peak & $t$ & Area & Late & $\Delta$Peak & $\Delta$Area\\
+\midrule
+Transplant pair & kept & & +0.0651 & 55 & +14.48 & $-$0.0005 & -- & --\\
+ & both reset & & +0.0547 & 70 & +12.64 & $-$0.0009 & $-$0.0103 & $-$1.84\\
+From step 4000 & kept & & +0.0670 & 40 & +14.59 & $-$0.0023 & -- & --\\
+ & both reset & & +0.0528 & 85 & +12.62 & $-$0.0030 & $-$0.0142 & $-$1.97\\
+\bottomrule
+\end{tabular}

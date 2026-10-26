@@ -1,0 +1,1170 @@
+{
+ "runs": [
+  {
+   "run": "kp",
+   "kind": "exploratory",
+   "model": "tissue",
+   "height_ratio": -1.5619190052226828,
+   "time_ratio": 0.2857142857142857,
+   "nrmse": 0.8183895550358211,
+   "rmse_abs": null,
+   "pass": false
+  },
+  {
+   "run": "kp",
+   "kind": "exploratory",
+   "model": "mpl",
+   "height_ratio": -1.1112667126983349,
+   "time_ratio": 0.2857142857142857,
+   "nrmse": 0.74306917462393,
+   "rmse_abs": null,
+   "pass": false
+  },
+  {
+   "run": "kp",
+   "kind": "exploratory",
+   "model": "fsl",
+   "height_ratio": -0.8728869048485299,
+   "time_ratio": 0.2857142857142857,
+   "nrmse": 0.6596178661812285,
+   "rmse_abs": null,
+   "pass": false
+  },
+  {
+   "run": "kp",
+   "kind": "exploratory",
+   "model": "nqm2",
+   "height_ratio": -0.5759225611205948,
+   "time_ratio": 0.2857142857142857,
+   "nrmse": 0.6577776713899083,
+   "rmse_abs": null,
+   "pass": false
+  },
+  {
+   "run": "kp",
+   "kind": "exploratory",
+   "model": "nqm2pq",
+   "height_ratio": 0.923072084760058,
+   "time_ratio": 0.42857142857142855,
+   "nrmse": 0.31526742862061513,
+   "rmse_abs": null,
+   "pass": false
+  },
+  {
+   "run": "kp",
+   "kind": "exploratory",
+   "model": "nqmS",
+   "height_ratio": 1.0695635708165825,
+   "time_ratio": 0.5714285714285714,
+   "nrmse": 0.2603729578301223,
+   "rmse_abs": null,
+   "pass": false
+  },
+  {
+   "run": "kp_ta100:refL",
+   "kind": "withheld",
+   "model": "tissue",
+   "height_ratio": 0.1878124515689114,
+   "time_ratio": 4.285714285714286,
+   "nrmse": 0.7009697711786416,
+   "rmse_abs": 0.1805248687054567,
+   "pass": false
+  },
+  {
+   "run": "kp_ta100:refL",
+   "kind": "withheld",
+   "model": "mpl",
+   "height_ratio": 0.13189512210013624,
+   "time_ratio": 4.285714285714286,
+   "nrmse": 0.5968836462968818,
+   "rmse_abs": 0.09763311642604416,
+   "pass": false
+  },
+  {
+   "run": "kp_ta100:refL",
+   "kind": "withheld",
+   "model": "fsl",
+   "height_ratio": 0.2295945403474004,
+   "time_ratio": 2.4285714285714284,
+   "nrmse": 0.4713048999408629,
+   "rmse_abs": 0.06552405468890288,
+   "pass": false
+  },
+  {
+   "run": "kp_ta100:refL",
+   "kind": "withheld",
+   "model": "nqm2",
+   "height_ratio": 0.28213655836482976,
+   "time_ratio": 0.8571428571428571,
+   "nrmse": 0.41083681611397493,
+   "rmse_abs": 0.06882605453756191,
+   "pass": false
+  },
+  {
+   "run": "kp_ta100:refL",
+   "kind": "withheld",
+   "model": "nqm2pq",
+   "height_ratio": 1.467717089397652,
+   "time_ratio": 0.42857142857142855,
+   "nrmse": 0.1956693910535733,
+   "rmse_abs": 0.03030568667155252,
+   "pass": false
+  },
+  {
+   "run": "kp_ta100:refL",
+   "kind": "withheld",
+   "model": "nqmS",
+   "height_ratio": 1.5146674267263898,
+   "time_ratio": 0.42857142857142855,
+   "nrmse": 0.2144962683201762,
+   "rmse_abs": 0.02786985366037273,
+   "pass": false
+  },
+  {
+   "run": "kp_ta1000:refL",
+   "kind": "withheld",
+   "model": "tissue",
+   "height_ratio": -2.7752414631829976,
+   "time_ratio": 6.0,
+   "nrmse": 0.9242138156512579,
+   "rmse_abs": 0.205905638495192,
+   "pass": false
+  },
+  {
+   "run": "kp_ta1000:refL",
+   "kind": "withheld",
+   "model": "mpl",
+   "height_ratio": -2.3518743971590617,
+   "time_ratio": 6.0,
+   "nrmse": 0.703736694459139,
+   "rmse_abs": 0.11518232531428668,
+   "pass": false
+  },
+  {
+   "run": "kp_ta1000:refL",
+   "kind": "withheld",
+   "model": "fsl",
+   "height_ratio": -1.9387364320112022,
+   "time_ratio": 3.0,
+   "nrmse": 0.5732104989993277,
+   "rmse_abs": 0.08507758451714126,
+   "pass": false
+  },
+  {
+   "run": "kp_ta1000:refL",
+   "kind": "withheld",
+   "model": "nqm2",
+   "height_ratio": -1.821551894728598,
+   "time_ratio": 1.0,
+   "nrmse": 0.5561212468831106,
+   "rmse_abs": 0.0906785356339038,
+   "pass": false
+  },
+  {
+   "run": "kp_ta1000:refL",
+   "kind": "withheld",
+   "model": "nqm2pq",
+   "height_ratio": 1.135868571357945,
+   "time_ratio": 0.6,
+   "nrmse": 0.32089970977179544,
+   "rmse_abs": 0.06084763137258754,
+   "pass": false
+  },
+  {
+   "run": "kp_ta1000:refL",
+   "kind": "withheld",
+   "model": "nqmS",
+   "height_ratio": 1.650757608042507,
+   "time_ratio": 0.6,
+   "nrmse": 0.2236931062249424,
+   "rmse_abs": 0.03804064857453975,
+   "pass": false
+  },
+  {
+   "run": "kp_h2:refL",
+   "kind": "withheld",
+   "model": "tissue",
+   "height_ratio": -0.2399350638910539,
+   "time_ratio": 5.0,
+   "nrmse": 0.8680760644965776,
+   "rmse_abs": 0.11642451256634659,
+   "pass": false
+  },
+  {
+   "run": "kp_h2:refL",
+   "kind": "withheld",
+   "model": "mpl",
+   "height_ratio": -0.23906818738683186,
+   "time_ratio": 5.0,
+   "nrmse": 0.5736080735899353,
+   "rmse_abs": 0.04820384733397402,
+   "pass": false
+  },
+  {
+   "run": "kp_h2:refL",
+   "kind": "withheld",
+   "model": "fsl",
+   "height_ratio": -0.011287838605991174,
+   "time_ratio": 1.3333333333333333,
+   "nrmse": 0.4106247604261579,
+   "rmse_abs": 0.031081536187959957,
+   "pass": false
+  },
+  {
+   "run": "kp_h2:refL",
+   "kind": "withheld",
+   "model": "nqm2",
+   "height_ratio": 0.26484010483409565,
+   "time_ratio": 0.8333333333333334,
+   "nrmse": 0.37567621434217585,
+   "rmse_abs": 0.0426314365258493,
+   "pass": false
+  },
+  {
+   "run": "kp_h2:refL",
+   "kind": "withheld",
+   "model": "nqm2pq",
+   "height_ratio": 1.3080652366624608,
+   "time_ratio": 0.5,
+   "nrmse": 0.17634108945526142,
+   "rmse_abs": 0.02632295892806931,
+   "pass": false
+  },
+  {
+   "run": "kp_h2:refL",
+   "kind": "withheld",
+   "model": "nqmS",
+   "height_ratio": 1.359603316473331,
+   "time_ratio": 0.5,
+   "nrmse": 0.1483795510231327,
+   "rmse_abs": 0.020423169873364306,
+   "pass": false
+  },
+  {
+   "run": "kp_l2:refL",
+   "kind": "withheld",
+   "model": "tissue",
+   "height_ratio": -0.36061531388697776,
+   "time_ratio": 3.3333333333333335,
+   "nrmse": 0.8006186234774471,
+   "rmse_abs": 0.1668073198709049,
+   "pass": false
+  },
+  {
+   "run": "kp_l2:refL",
+   "kind": "withheld",
+   "model": "mpl",
+   "height_ratio": -0.31457244004475254,
+   "time_ratio": 3.3333333333333335,
+   "nrmse": 0.690881431505533,
+   "rmse_abs": 0.11374917371987445,
+   "pass": false
+  },
+  {
+   "run": "kp_l2:refL",
+   "kind": "withheld",
+   "model": "fsl",
+   "height_ratio": -0.2564695928547342,
+   "time_ratio": 3.3333333333333335,
+   "nrmse": 0.6353900519187778,
+   "rmse_abs": 0.10070277690348818,
+   "pass": false
+  },
+  {
+   "run": "kp_l2:refL",
+   "kind": "withheld",
+   "model": "nqm2",
+   "height_ratio": -0.3354984295288159,
+   "time_ratio": 3.3333333333333335,
+   "nrmse": 0.6404177527826793,
+   "rmse_abs": 0.10062583246003,
+   "pass": false
+  },
+  {
+   "run": "kp_l2:refL",
+   "kind": "withheld",
+   "model": "nqm2pq",
+   "height_ratio": 0.5477353632313103,
+   "time_ratio": 0.3333333333333333,
+   "nrmse": 0.3770659670693297,
+   "rmse_abs": 0.05975184303138891,
+   "pass": false
+  },
+  {
+   "run": "kp_l2:refL",
+   "kind": "withheld",
+   "model": "nqmS",
+   "height_ratio": 0.7173414454854383,
+   "time_ratio": 0.4444444444444444,
+   "nrmse": 0.3027010793556309,
+   "rmse_abs": 0.053827154557236565,
+   "pass": false
+  },
+  {
+   "run": "km2:refL",
+   "kind": "withheld",
+   "model": "tissue",
+   "height_ratio": 1.8592233152973379,
+   "time_ratio": 1.0,
+   "nrmse": 0.3791280978382085,
+   "rmse_abs": 0.025454055849744917,
+   "pass": false
+  },
+  {
+   "run": "km2:refL",
+   "kind": "withheld",
+   "model": "mpl",
+   "height_ratio": 1.2953120302273198,
+   "time_ratio": 1.0714285714285714,
+   "nrmse": 0.14377848813728067,
+   "rmse_abs": 0.0075499710062669825,
+   "pass": true
+  },
+  {
+   "run": "km2:refL",
+   "kind": "withheld",
+   "model": "fsl",
+   "height_ratio": 1.6624271893341083,
+   "time_ratio": 0.07142857142857142,
+   "nrmse": 0.3421554794832833,
+   "rmse_abs": 0.011007576896411091,
+   "pass": false
+  },
+  {
+   "run": "km2:refL",
+   "kind": "withheld",
+   "model": "nqm2",
+   "height_ratio": 1.5939830785542013,
+   "time_ratio": 1.0714285714285714,
+   "nrmse": 0.3600616301252775,
+   "rmse_abs": 0.010975027222555125,
+   "pass": false
+  },
+  {
+   "run": "km2:refL",
+   "kind": "withheld",
+   "model": "nqm2pq",
+   "height_ratio": 1.6251012279543091,
+   "time_ratio": 1.0714285714285714,
+   "nrmse": 0.4079636132773584,
+   "rmse_abs": 0.021239653146998095,
+   "pass": false
+  },
+  {
+   "run": "km2:refL",
+   "kind": "withheld",
+   "model": "nqmS",
+   "height_ratio": 1.8167040631444982,
+   "time_ratio": 0.07142857142857142,
+   "nrmse": 0.4058556290762095,
+   "rmse_abs": 0.017998549833116814,
+   "pass": false
+  },
+  {
+   "run": "kp_r1:refL_r1",
+   "kind": "withheld",
+   "model": "tissue",
+   "height_ratio": -0.03733446571390078,
+   "time_ratio": 2.727272727272727,
+   "nrmse": 0.7557419220331697,
+   "rmse_abs": 0.1976842396974459,
+   "pass": false
+  },
+  {
+   "run": "kp_r1:refL_r1",
+   "kind": "withheld",
+   "model": "mpl",
+   "height_ratio": -0.05090944334630313,
+   "time_ratio": 2.727272727272727,
+   "nrmse": 0.6724464145538114,
+   "rmse_abs": 0.12639583790746212,
+   "pass": false
+  },
+  {
+   "run": "kp_r1:refL_r1",
+   "kind": "withheld",
+   "model": "fsl",
+   "height_ratio": 0.014572286571027026,
+   "time_ratio": 2.3636363636363638,
+   "nrmse": 0.589917099773799,
+   "rmse_abs": 0.0991679640011334,
+   "pass": false
+  },
+  {
+   "run": "kp_r1:refL_r1",
+   "kind": "withheld",
+   "model": "nqm2",
+   "height_ratio": -0.045028063765978704,
+   "time_ratio": 2.727272727272727,
+   "nrmse": 0.581319628822691,
+   "rmse_abs": 0.10049086621178917,
+   "pass": false
+  },
+  {
+   "run": "kp_r1:refL_r1",
+   "kind": "withheld",
+   "model": "nqm2pq",
+   "height_ratio": 1.019251776855053,
+   "time_ratio": 0.2727272727272727,
+   "nrmse": 0.27220147939067874,
+   "rmse_abs": 0.05252418843461479,
+   "pass": false
+  },
+  {
+   "run": "kp_r1:refL_r1",
+   "kind": "withheld",
+   "model": "nqmS",
+   "height_ratio": 1.153514506812109,
+   "time_ratio": 0.36363636363636365,
+   "nrmse": 0.2294601510848022,
+   "rmse_abs": 0.04073473294403238,
+   "pass": false
+  },
+  {
+   "run": "kp_r2:refL_r2",
+   "kind": "withheld",
+   "model": "tissue",
+   "height_ratio": -0.02216526324644463,
+   "time_ratio": 3.3333333333333335,
+   "nrmse": 0.7133078142269975,
+   "rmse_abs": 0.19626463981529688,
+   "pass": false
+  },
+  {
+   "run": "kp_r2:refL_r2",
+   "kind": "withheld",
+   "model": "mpl",
+   "height_ratio": -0.03765542718424698,
+   "time_ratio": 3.3333333333333335,
+   "nrmse": 0.6379505965401087,
+   "rmse_abs": 0.12619883531989634,
+   "pass": false
+  },
+  {
+   "run": "kp_r2:refL_r2",
+   "kind": "withheld",
+   "model": "fsl",
+   "height_ratio": 0.022544500273233743,
+   "time_ratio": 2.888888888888889,
+   "nrmse": 0.5623554005486838,
+   "rmse_abs": 0.09931472808825463,
+   "pass": false
+  },
+  {
+   "run": "kp_r2:refL_r2",
+   "kind": "withheld",
+   "model": "nqm2",
+   "height_ratio": -0.03327988775097618,
+   "time_ratio": 3.3333333333333335,
+   "nrmse": 0.554225738098141,
+   "rmse_abs": 0.10027934018890189,
+   "pass": false
+  },
+  {
+   "run": "kp_r2:refL_r2",
+   "kind": "withheld",
+   "model": "nqm2pq",
+   "height_ratio": 0.9450607322104374,
+   "time_ratio": 0.3333333333333333,
+   "nrmse": 0.25076217210139184,
+   "rmse_abs": 0.052098596916674525,
+   "pass": false
+  },
+  {
+   "run": "kp_r2:refL_r2",
+   "kind": "withheld",
+   "model": "nqmS",
+   "height_ratio": 1.0768328191774996,
+   "time_ratio": 0.4444444444444444,
+   "nrmse": 0.2052562473249979,
+   "rmse_abs": 0.04057317019376314,
+   "pass": false
+  },
+  {
+   "run": "kp_sd1:refL_sd1",
+   "kind": "seeds",
+   "model": "tissue",
+   "height_ratio": 0.013098083780450633,
+   "time_ratio": 2.727272727272727,
+   "nrmse": 0.7586176676633378,
+   "rmse_abs": 0.17348952538304674,
+   "pass": false
+  },
+  {
+   "run": "kp_sd1:refL_sd1",
+   "kind": "seeds",
+   "model": "mpl",
+   "height_ratio": -0.010926920898994972,
+   "time_ratio": 2.727272727272727,
+   "nrmse": 0.6873567643025374,
+   "rmse_abs": 0.10620100076070582,
+   "pass": false
+  },
+  {
+   "run": "kp_sd1:refL_sd1",
+   "kind": "seeds",
+   "model": "fsl",
+   "height_ratio": 0.04962262781462536,
+   "time_ratio": 2.5454545454545454,
+   "nrmse": 0.6083971583821726,
+   "rmse_abs": 0.0809684176019261,
+   "pass": false
+  },
+  {
+   "run": "kp_sd1:refL_sd1",
+   "kind": "seeds",
+   "model": "nqm2",
+   "height_ratio": -0.009311122342525091,
+   "time_ratio": 2.727272727272727,
+   "nrmse": 0.6065955806652426,
+   "rmse_abs": 0.08054397348361686,
+   "pass": false
+  },
+  {
+   "run": "kp_sd1:refL_sd1",
+   "kind": "seeds",
+   "model": "nqm2pq",
+   "height_ratio": 0.9640596024921104,
+   "time_ratio": 0.2727272727272727,
+   "nrmse": 0.2898790416041954,
+   "rmse_abs": 0.032490410912577206,
+   "pass": false
+  },
+  {
+   "run": "kp_sd1:refL_sd1",
+   "kind": "seeds",
+   "model": "nqmS",
+   "height_ratio": 1.1187733588533342,
+   "time_ratio": 0.36363636363636365,
+   "nrmse": 0.24354119833636656,
+   "rmse_abs": 0.021557015167781374,
+   "pass": false
+  },
+  {
+   "run": "kp_sd2:refL_sd2",
+   "kind": "seeds",
+   "model": "tissue",
+   "height_ratio": -0.04864081323908002,
+   "time_ratio": 3.75,
+   "nrmse": 0.7588148087085865,
+   "rmse_abs": 0.18320642613205712,
+   "pass": false
+  },
+  {
+   "run": "kp_sd2:refL_sd2",
+   "kind": "seeds",
+   "model": "mpl",
+   "height_ratio": -0.059419913843498894,
+   "time_ratio": 3.75,
+   "nrmse": 0.6724215079833595,
+   "rmse_abs": 0.1116087187930635,
+   "pass": false
+  },
+  {
+   "run": "kp_sd2:refL_sd2",
+   "kind": "seeds",
+   "model": "fsl",
+   "height_ratio": 0.006133192443179535,
+   "time_ratio": 3.25,
+   "nrmse": 0.5890313378004998,
+   "rmse_abs": 0.08521201877048283,
+   "pass": false
+  },
+  {
+   "run": "kp_sd2:refL_sd2",
+   "kind": "seeds",
+   "model": "nqm2",
+   "height_ratio": -0.052533065236035965,
+   "time_ratio": 3.75,
+   "nrmse": 0.5784893860657527,
+   "rmse_abs": 0.08545793804134144,
+   "pass": false
+  },
+  {
+   "run": "kp_sd2:refL_sd2",
+   "kind": "seeds",
+   "model": "nqm2pq",
+   "height_ratio": 1.012790319157522,
+   "time_ratio": 0.375,
+   "nrmse": 0.26667046340035727,
+   "rmse_abs": 0.03894128405275898,
+   "pass": false
+  },
+  {
+   "run": "kp_sd2:refL_sd2",
+   "kind": "seeds",
+   "model": "nqmS",
+   "height_ratio": 1.1393535284697422,
+   "time_ratio": 0.5,
+   "nrmse": 0.22197658533509038,
+   "rmse_abs": 0.02764277328055173,
+   "pass": false
+  },
+  {
+   "run": "kp_sd3:refL_sd3",
+   "kind": "seeds",
+   "model": "tissue",
+   "height_ratio": -0.05135955311687441,
+   "time_ratio": 3.75,
+   "nrmse": 0.7579942943959886,
+   "rmse_abs": 0.18272326589170915,
+   "pass": false
+  },
+  {
+   "run": "kp_sd3:refL_sd3",
+   "kind": "seeds",
+   "model": "mpl",
+   "height_ratio": -0.06207402334790711,
+   "time_ratio": 3.75,
+   "nrmse": 0.6702171419036851,
+   "rmse_abs": 0.11099650521125083,
+   "pass": false
+  },
+  {
+   "run": "kp_sd3:refL_sd3",
+   "kind": "seeds",
+   "model": "fsl",
+   "height_ratio": 0.005238928380914992,
+   "time_ratio": 3.25,
+   "nrmse": 0.5862956654657155,
+   "rmse_abs": 0.08461562225237458,
+   "pass": false
+  },
+  {
+   "run": "kp_sd3:refL_sd3",
+   "kind": "seeds",
+   "model": "nqm2",
+   "height_ratio": -0.05487397329395932,
+   "time_ratio": 3.75,
+   "nrmse": 0.5749676636270158,
+   "rmse_abs": 0.08493919895855342,
+   "pass": false
+  },
+  {
+   "run": "kp_sd3:refL_sd3",
+   "kind": "seeds",
+   "model": "nqm2pq",
+   "height_ratio": 1.0390200878328586,
+   "time_ratio": 0.375,
+   "nrmse": 0.26557609472469956,
+   "rmse_abs": 0.03817320775482859,
+   "pass": false
+  },
+  {
+   "run": "kp_sd3:refL_sd3",
+   "kind": "seeds",
+   "model": "nqmS",
+   "height_ratio": 1.1679889581326701,
+   "time_ratio": 0.5,
+   "nrmse": 0.22398066398830807,
+   "rmse_abs": 0.026599943815885107,
+   "pass": false
+  },
+  {
+   "run": "kp_sd4:refL_sd4",
+   "kind": "seeds",
+   "model": "tissue",
+   "height_ratio": -0.04015459392901828,
+   "time_ratio": 3.75,
+   "nrmse": 0.7330041683309931,
+   "rmse_abs": 0.18418981347583108,
+   "pass": false
+  },
+  {
+   "run": "kp_sd4:refL_sd4",
+   "kind": "seeds",
+   "model": "mpl",
+   "height_ratio": -0.0522284138733815,
+   "time_ratio": 3.75,
+   "nrmse": 0.6528460331563498,
+   "rmse_abs": 0.11287259434548445,
+   "pass": false
+  },
+  {
+   "run": "kp_sd4:refL_sd4",
+   "kind": "seeds",
+   "model": "fsl",
+   "height_ratio": 0.010964946412640536,
+   "time_ratio": 3.25,
+   "nrmse": 0.573687817493495,
+   "rmse_abs": 0.0865158614770859,
+   "pass": false
+  },
+  {
+   "run": "kp_sd4:refL_sd4",
+   "kind": "seeds",
+   "model": "nqm2",
+   "height_ratio": -0.046191518626331446,
+   "time_ratio": 3.75,
+   "nrmse": 0.5654667865747199,
+   "rmse_abs": 0.08698757433547177,
+   "pass": false
+  },
+  {
+   "run": "kp_sd4:refL_sd4",
+   "kind": "seeds",
+   "model": "nqm2pq",
+   "height_ratio": 0.9808752324148313,
+   "time_ratio": 0.375,
+   "nrmse": 0.26682407524575985,
+   "rmse_abs": 0.041739955832786675,
+   "pass": false
+  },
+  {
+   "run": "kp_sd4:refL_sd4",
+   "kind": "seeds",
+   "model": "nqmS",
+   "height_ratio": 1.1075859992961081,
+   "time_ratio": 0.5,
+   "nrmse": 0.2230164524400603,
+   "rmse_abs": 0.031955146808916715,
+   "pass": false
+  },
+  {
+   "run": "kp_sd5:refL_sd5",
+   "kind": "seeds",
+   "model": "tissue",
+   "height_ratio": 0.011339281665032865,
+   "time_ratio": 3.75,
+   "nrmse": 0.7558386264861192,
+   "rmse_abs": 0.18375159715220263,
+   "pass": false
+  },
+  {
+   "run": "kp_sd5:refL_sd5",
+   "kind": "seeds",
+   "model": "mpl",
+   "height_ratio": -0.011890967848782552,
+   "time_ratio": 3.75,
+   "nrmse": 0.6861050679208726,
+   "rmse_abs": 0.11614460118377583,
+   "pass": false
+  },
+  {
+   "run": "kp_sd5:refL_sd5",
+   "kind": "seeds",
+   "model": "fsl",
+   "height_ratio": 0.04756342924353161,
+   "time_ratio": 3.5,
+   "nrmse": 0.6086020699362421,
+   "rmse_abs": 0.09032575857356188,
+   "pass": false
+  },
+  {
+   "run": "kp_sd5:refL_sd5",
+   "kind": "seeds",
+   "model": "nqm2",
+   "height_ratio": -0.010191199527417684,
+   "time_ratio": 3.75,
+   "nrmse": 0.6071395546153248,
+   "rmse_abs": 0.09045198625691493,
+   "pass": false
+  },
+  {
+   "run": "kp_sd5:refL_sd5",
+   "kind": "seeds",
+   "model": "nqm2pq",
+   "height_ratio": 0.9460476774257577,
+   "time_ratio": 0.375,
+   "nrmse": 0.29513532193252023,
+   "rmse_abs": 0.043587660637863075,
+   "pass": false
+  },
+  {
+   "run": "kp_sd5:refL_sd5",
+   "kind": "seeds",
+   "model": "nqmS",
+   "height_ratio": 1.0970275340630575,
+   "time_ratio": 0.5,
+   "nrmse": 0.24759887613026543,
+   "rmse_abs": 0.03375240490540345,
+   "pass": false
+  },
+  {
+   "run": "km_sd1:refL_sd1",
+   "kind": "extra",
+   "model": "tissue",
+   "height_ratio": 1.3972132083822686,
+   "time_ratio": 0.9333333333333333,
+   "nrmse": 0.5432037553374593,
+   "rmse_abs": 0.029426867208862374,
+   "pass": false
+  },
+  {
+   "run": "km_sd1:refL_sd1",
+   "kind": "extra",
+   "model": "mpl",
+   "height_ratio": 0.9669279126440855,
+   "time_ratio": 1.0,
+   "nrmse": 0.10345570420730064,
+   "rmse_abs": 0.028469608341279685,
+   "pass": true
+  },
+  {
+   "run": "km_sd1:refL_sd1",
+   "kind": "extra",
+   "model": "fsl",
+   "height_ratio": 1.186630634119227,
+   "time_ratio": 1.0,
+   "nrmse": 0.3100597150068172,
+   "rmse_abs": 0.0333956750757126,
+   "pass": false
+  },
+  {
+   "run": "km_sd1:refL_sd1",
+   "kind": "extra",
+   "model": "nqm2",
+   "height_ratio": 1.1911891361899818,
+   "time_ratio": 1.0,
+   "nrmse": 0.37575184560053493,
+   "rmse_abs": 0.033757820833605734,
+   "pass": false
+  },
+  {
+   "run": "km_sd1:refL_sd1",
+   "kind": "extra",
+   "model": "nqm2pq",
+   "height_ratio": 1.2039771375133461,
+   "time_ratio": 1.0,
+   "nrmse": 0.45701568483251226,
+   "rmse_abs": 0.044386554980945236,
+   "pass": false
+  },
+  {
+   "run": "km_sd1:refL_sd1",
+   "kind": "extra",
+   "model": "nqmS",
+   "height_ratio": 1.2659298622492454,
+   "time_ratio": 0.06666666666666667,
+   "nrmse": 0.4416758306617379,
+   "rmse_abs": 0.04333885939852613,
+   "pass": false
+  },
+  {
+   "run": "km_sd2:refL_sd2",
+   "kind": "extra",
+   "model": "tissue",
+   "height_ratio": 1.546776202558708,
+   "time_ratio": 1.0,
+   "nrmse": 0.6014000452670581,
+   "rmse_abs": 0.024885142974444,
+   "pass": false
+  },
+  {
+   "run": "km_sd2:refL_sd2",
+   "kind": "extra",
+   "model": "mpl",
+   "height_ratio": 1.06288626412637,
+   "time_ratio": 1.0,
+   "nrmse": 0.14493492542529426,
+   "rmse_abs": 0.01594558742093241,
+   "pass": true
+  },
+  {
+   "run": "km_sd2:refL_sd2",
+   "kind": "extra",
+   "model": "fsl",
+   "height_ratio": 1.3099755212412671,
+   "time_ratio": 1.0,
+   "nrmse": 0.3189093930421835,
+   "rmse_abs": 0.02074815265471587,
+   "pass": false
+  },
+  {
+   "run": "km_sd2:refL_sd2",
+   "kind": "extra",
+   "model": "nqm2",
+   "height_ratio": 1.3108540010050753,
+   "time_ratio": 1.0,
+   "nrmse": 0.34970359864565786,
+   "rmse_abs": 0.020904775964935198,
+   "pass": false
+  },
+  {
+   "run": "km_sd2:refL_sd2",
+   "kind": "extra",
+   "model": "nqm2pq",
+   "height_ratio": 1.3131894127878339,
+   "time_ratio": 1.0,
+   "nrmse": 0.43549100426162013,
+   "rmse_abs": 0.03255897357370884,
+   "pass": false
+  },
+  {
+   "run": "km_sd2:refL_sd2",
+   "kind": "extra",
+   "model": "nqmS",
+   "height_ratio": 1.2808204526852656,
+   "time_ratio": 0.06666666666666667,
+   "nrmse": 0.42337829244231157,
+   "rmse_abs": 0.031219063937207175,
+   "pass": false
+  },
+  {
+   "run": "km_sd3:refL_sd3",
+   "kind": "extra",
+   "model": "tissue",
+   "height_ratio": 1.7363525714520354,
+   "time_ratio": 0.9333333333333333,
+   "nrmse": 0.5126137992045418,
+   "rmse_abs": 0.024558087142877973,
+   "pass": false
+  },
+  {
+   "run": "km_sd3:refL_sd3",
+   "kind": "extra",
+   "model": "mpl",
+   "height_ratio": 1.2016260349214813,
+   "time_ratio": 1.0,
+   "nrmse": 0.12415874653926592,
+   "rmse_abs": 0.01812477388333275,
+   "pass": true
+  },
+  {
+   "run": "km_sd3:refL_sd3",
+   "kind": "extra",
+   "model": "fsl",
+   "height_ratio": 1.474656223227575,
+   "time_ratio": 1.0,
+   "nrmse": 0.36497682816391874,
+   "rmse_abs": 0.02323161169678283,
+   "pass": false
+  },
+  {
+   "run": "km_sd3:refL_sd3",
+   "kind": "extra",
+   "model": "nqm2",
+   "height_ratio": 1.4803211902813072,
+   "time_ratio": 1.0,
+   "nrmse": 0.4054836735675607,
+   "rmse_abs": 0.02435657620768705,
+   "pass": false
+  },
+  {
+   "run": "km_sd3:refL_sd3",
+   "kind": "extra",
+   "model": "nqm2pq",
+   "height_ratio": 1.496213166429503,
+   "time_ratio": 1.0,
+   "nrmse": 0.48233897953423516,
+   "rmse_abs": 0.0362116885337111,
+   "pass": false
+  },
+  {
+   "run": "km_sd3:refL_sd3",
+   "kind": "extra",
+   "model": "nqmS",
+   "height_ratio": 1.5732034011755576,
+   "time_ratio": 0.06666666666666667,
+   "nrmse": 0.469788451756919,
+   "rmse_abs": 0.03452146167275101,
+   "pass": false
+  },
+  {
+   "run": "km_sd4:refL_sd4",
+   "kind": "extra",
+   "model": "tissue",
+   "height_ratio": 1.5373639569203446,
+   "time_ratio": 2.0,
+   "nrmse": 0.6578277199514065,
+   "rmse_abs": 0.024583682771943154,
+   "pass": false
+  },
+  {
+   "run": "km_sd4:refL_sd4",
+   "kind": "extra",
+   "model": "mpl",
+   "height_ratio": 1.056418523940653,
+   "time_ratio": 2.0,
+   "nrmse": 0.1583783679492121,
+   "rmse_abs": 0.017254527617450253,
+   "pass": false
+  },
+  {
+   "run": "km_sd4:refL_sd4",
+   "kind": "extra",
+   "model": "fsl",
+   "height_ratio": 1.3020042249633894,
+   "time_ratio": 2.0,
+   "nrmse": 0.30682144566492237,
+   "rmse_abs": 0.022281454487245708,
+   "pass": false
+  },
+  {
+   "run": "km_sd4:refL_sd4",
+   "kind": "extra",
+   "model": "nqm2",
+   "height_ratio": 1.3028773591139722,
+   "time_ratio": 2.0,
+   "nrmse": 0.3779707356355305,
+   "rmse_abs": 0.022567363420390403,
+   "pass": false
+  },
+  {
+   "run": "km_sd4:refL_sd4",
+   "kind": "extra",
+   "model": "nqm2pq",
+   "height_ratio": 1.3051985597462554,
+   "time_ratio": 2.0,
+   "nrmse": 0.48456701933825486,
+   "rmse_abs": 0.034062966525900434,
+   "pass": false
+  },
+  {
+   "run": "km_sd4:refL_sd4",
+   "kind": "extra",
+   "model": "nqmS",
+   "height_ratio": 1.2730265671190335,
+   "time_ratio": 0.13333333333333333,
+   "nrmse": 0.45662022634345617,
+   "rmse_abs": 0.03260045630174712,
+   "pass": false
+  },
+  {
+   "run": "km_sd5:refL_sd5",
+   "kind": "extra",
+   "model": "tissue",
+   "height_ratio": 1.415398904563308,
+   "time_ratio": 0.9333333333333333,
+   "nrmse": 0.5556032834146173,
+   "rmse_abs": 0.024763513464707572,
+   "pass": false
+  },
+  {
+   "run": "km_sd5:refL_sd5",
+   "kind": "extra",
+   "model": "mpl",
+   "height_ratio": 0.9795131481277033,
+   "time_ratio": 1.0,
+   "nrmse": 0.12372527130311398,
+   "rmse_abs": 0.01766946373354977,
+   "pass": true
+  },
+  {
+   "run": "km_sd5:refL_sd5",
+   "kind": "extra",
+   "model": "fsl",
+   "height_ratio": 1.2020754524631587,
+   "time_ratio": 1.0,
+   "nrmse": 0.27816928914981076,
+   "rmse_abs": 0.022636048027997114,
+   "pass": true
+  },
+  {
+   "run": "km_sd5:refL_sd5",
+   "kind": "extra",
+   "model": "nqm2",
+   "height_ratio": 1.2066932865908984,
+   "time_ratio": 1.0,
+   "nrmse": 0.3602175867751477,
+   "rmse_abs": 0.023605112760966523,
+   "pass": false
+  },
+  {
+   "run": "km_sd5:refL_sd5",
+   "kind": "extra",
+   "model": "nqm2pq",
+   "height_ratio": 1.2196477325953137,
+   "time_ratio": 1.0,
+   "nrmse": 0.44565371981078283,
+   "rmse_abs": 0.035527098188963255,
+   "pass": false
+  },
+  {
+   "run": "km_sd5:refL_sd5",
+   "kind": "extra",
+   "model": "nqmS",
+   "height_ratio": 1.2824068148884387,
+   "time_ratio": 0.06666666666666667,
+   "nrmse": 0.4248206921227136,
+   "rmse_abs": 0.03403209220161764,
+   "pass": false
+  },
+  {
+   "run": "kpA8:refA8",
+   "kind": "extra",
+   "model": "tissue",
+   "height_ratio": -0.011183250639957518,
+   "time_ratio": 4.285714285714286,
+   "nrmse": 0.7190883050259121,
+   "rmse_abs": 0.2418774950627738,
+   "pass": false
+  },
+  {
+   "run": "kpA8:refA8",
+   "kind": "extra",
+   "model": "mpl",
+   "height_ratio": -0.03255918715001728,
+   "time_ratio": 4.285714285714286,
+   "nrmse": 0.6335605829478201,
+   "rmse_abs": 0.14828623061706678,
+   "pass": false
+  },
+  {
+   "run": "kpA8:refA8",
+   "kind": "extra",
+   "model": "fsl",
+   "height_ratio": 0.04200216407165965,
+   "time_ratio": 4.0,
+   "nrmse": 0.5502382482886066,
+   "rmse_abs": 0.10854819719298008,
+   "pass": false
+  },
+  {
+   "run": "kpA8:refA8",
+   "kind": "extra",
+   "model": "nqm2",
+   "height_ratio": -0.02786049499115827,
+   "time_ratio": 4.285714285714286,
+   "nrmse": 0.5394906275939284,
+   "rmse_abs": 0.11605675048010451,
+   "pass": false
+  },
+  {
+   "run": "kpA8:refA8",
+   "kind": "extra",
+   "model": "nqm2pq",
+   "height_ratio": 1.1855822099404953,
+   "time_ratio": 0.42857142857142855,
+   "nrmse": 0.2335050257742009,
+   "rmse_abs": 0.08477797697540371,
+   "pass": false
+  },
+  {
+   "run": "kpA8:refA8",
+   "kind": "extra",
+   "model": "nqmS",
+   "height_ratio": 1.354032663975583,
+   "time_ratio": 0.5714285714285714,
+   "nrmse": 0.20939216327762214,
+   "rmse_abs": 0.04917693633199588,
+   "pass": false
+  }
+ ],
+ "counts": {
+  "tissue": {
+   "n": 18,
+   "pass": 0
+  },
+  "mpl": {
+   "n": 18,
+   "pass": 5
+  },
+  "fsl": {
+   "n": 18,
+   "pass": 1
+  },
+  "nqm2": {
+   "n": 18,
+   "pass": 0
+  },
+  "nqm2pq": {
+   "n": 18,
+   "pass": 0
+  },
+  "nqmS": {
+   "n": 18,
+   "pass": 0
+  }
+ }
+}
