@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23666872.svg)](https://doi.org/10.5281/zenodo.23666872)
 
 Code and data for the manuscript *Same Loss, Different State: Kovacs Memory in Neural-Network Training* by Hao Liu,
-Xiaojie Zong, Jie Chen, Jianyu Xiong, Qiao Ke, Nan Li, Xiaofeng Luo and Yi-Cheng Zhang.
+Xiaojie Zong, Jie Chen, Jianyu Xiong, Nan Li, Xiaofeng Luo and Yi-Cheng Zhang.
 
 A network is trained at a high learning rate, then at a low one until its held-out loss equals that of an untouched
 reference, and is then trained exactly like the reference, on the same minibatches. This is Kovacs's protocol for
